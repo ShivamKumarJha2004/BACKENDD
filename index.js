@@ -9,7 +9,7 @@ app.use(cors()),
 app.use(express.json());
 
 dotenv.config();
-const port=process.env.port||3003;
+const port=process.env.port;
 const url=process.env.MONGODBURL;
 
 // connect to mongodb
